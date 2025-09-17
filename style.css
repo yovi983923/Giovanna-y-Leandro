@@ -406,3 +406,19 @@ footer p { font-family: var(--font-headings); font-size: 1.4rem; }
         background-position: -40 top; /* mueve la imagen hacia la izquierda */
     }
 }
+
+.schedule-container {
+    display: flex;
+    flex-direction: column; /* ícono arriba del texto */
+    align-items: center; /* centrado horizontal */
+    gap: 0.5rem;
+}
+
+.schedule-icon {
+    color: var(--primary-color); /* azul consistente con la página */
+}
+
+.schedule-icon svg {
+    width: 32px;
+    height: 32px;
+}
